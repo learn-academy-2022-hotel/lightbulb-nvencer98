@@ -1,9 +1,18 @@
 import React from "react"
 
-const LightSwitch = () => {
+const LightSwitch = (props) => {
+console.log(props)
+
+
+
+  
   return (
     <>
-      <div className="lightbulb"></div>
+    
+      <div style={{backgroundColor: props.backgroundStatus} } className="lightbulb" >{props.lightSwitchStatus} 
+      
+      </div> 
+      
     </>
   )
 }
