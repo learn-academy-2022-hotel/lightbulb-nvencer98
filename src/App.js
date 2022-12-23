@@ -8,6 +8,7 @@ const App = () => {
     <>
       <h1>Lightbulb Challenge</h1>
       <LightSwitch/> 
+      <LightSwitch/> 
     </>
   )
 }
