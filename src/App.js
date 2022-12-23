@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import "./App.css"
 import LightSwitch from "./components/LightSwitch"
 
+
 const App = () => {
   const [lightSwitchStatus, setLightSwitchStatus] = useState("off")
   const [backgroundStatus, setBackgroundStatus] = useState("white")
@@ -11,11 +12,11 @@ const App = () => {
 
 
   const handleClick = () => {
-  // if (lightSwitchStatus === "off"){
-  //   setLightSwitchStatus("on")
-  // } else {
-  //     setLightSwitchStatus("off")
-  // }
+  if (lightSwitchStatus === "off"){
+    setLightSwitchStatus("on")
+  } else {
+      setLightSwitchStatus("off")
+  }
   lightSwitchStatus === "off"? setLightSwitchStatus("on") :setLightSwitchStatus("off")
     backgroundStatus === "white"? setBackgroundStatus("yellow"):setBackgroundStatus("white")
   }
@@ -34,6 +35,7 @@ const App = () => {
       backgroundStatus = {backgroundStatus}
       /> 
     
+  
     </>
   )
 }
