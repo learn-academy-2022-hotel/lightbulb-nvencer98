@@ -18,7 +18,7 @@ const App = () => {
       setLightSwitchStatus("off")
   }
   lightSwitchStatus === "off"? setLightSwitchStatus("on") :setLightSwitchStatus("off")
-    backgroundStatus === "white"? setBackgroundStatus("yellow"):setBackgroundStatus("white")
+   
   }
 
 
@@ -30,7 +30,7 @@ const App = () => {
   return (
     <>
       <h1>Lightbulb Challenge</h1>
-      <button onClick={handleClick}>on/off</button>
+      {/* <button onClick={handleClick}>on/off</button> */}
       <LightSwitch lightSwitchStatus ={lightSwitchStatus}
       backgroundStatus = {backgroundStatus}
       /> 
