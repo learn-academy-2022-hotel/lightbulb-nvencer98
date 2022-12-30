@@ -52,3 +52,10 @@ It is a best practice to keep all images in folder called assets. The assets fol
 - [Switch Off](./assets/switchOff.png)
 - [Light On](./assets/lightOn.png)
 - [Light Off](./assets/lightOff.png)
+
+
+
+
+
+<!-- Notes
+review ternary operator. -->
